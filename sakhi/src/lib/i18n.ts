@@ -1,0 +1,47 @@
+// Frontend demonstration of the English / हिंदी toggle.
+// Navigation, hero, service cards, emergency actions and the disclaimer are translated;
+// long-form health content is English only in this prototype.
+export const T: Record<string, { en: string; hi: string }> = {
+  'nav.home': { en: 'Home', hi: 'होम' },
+  'nav.screening': { en: 'Health Screening', hi: 'स्वास्थ्य जाँच' },
+  'nav.services': { en: 'Find Services', hi: 'सेवाएँ खोजें' },
+  'nav.wellness': { en: 'Mental Wellness', hi: 'मानसिक कल्याण' },
+  'nav.rights': { en: 'Know Your Rights', hi: 'अपने अधिकार जानें' },
+  'nav.emergency': { en: 'Emergency Help', hi: 'आपातकालीन सहायता' },
+  'nav.about': { en: 'About', hi: 'परिचय' },
+  help: { en: 'Get Help Now', hi: 'अभी सहायता लें' },
+  proto: { en: 'NIRMAAN prototype – not an official government portal', hi: 'यह NIRMAAN का प्रोटोटाइप है, आधिकारिक सरकारी पोर्टल नहीं' },
+  skip: { en: 'Skip to main content', hi: 'मुख्य सामग्री पर जाएँ' },
+  size: { en: 'Text size', hi: 'अक्षर आकार' },
+  contrast: { en: 'High contrast', hi: 'उच्च कंट्रास्ट' },
+  langBtn: { en: 'हिंदी', hi: 'English' },
+  worker: { en: 'Health worker view (demo)', hi: 'स्वास्थ्यकर्मी दृश्य (डेमो)' },
+  quickexit: { en: 'Quick Exit', hi: 'त्वरित निकास' },
+  'site.sub': { en: 'Adolescent Girls Health & Empowerment Portal', hi: 'किशोरी स्वास्थ्य एवं सशक्तिकरण पोर्टल' },
+  project: {
+    en: "NIRMAAN Project · Adolescent Girls' Health & Empowerment Initiative · Aspirational Districts, India",
+    hi: 'NIRMAAN परियोजना · किशोरी स्वास्थ्य एवं सशक्तिकरण पहल · आकांक्षी जिले, भारत',
+  },
+  tagline: { en: 'Every Girl Seen. Every Concern Heard. Every Future Protected.', hi: 'हर लड़की दिखे। हर बात सुनी जाए। हर भविष्य सुरक्षित हो।' },
+  'hero.title': { en: 'Healthy Girls. Stronger Communities. Brighter Futures.', hi: 'स्वस्थ बेटियाँ। सशक्त समुदाय। उज्ज्वल भविष्य।' },
+  'hero.sub': {
+    en: 'An accessible digital platform connecting adolescent girls with preventive health screening, nutrition awareness, mental wellness resources, and protection services.',
+    hi: 'एक सुलभ डिजिटल मंच जो किशोरियों को निवारक स्वास्थ्य जाँच, पोषण जागरूकता, मानसिक कल्याण संसाधनों और सुरक्षा सेवाओं से जोड़ता है।',
+  },
+  'cta.check': { en: 'Start Confidential Health Check', hi: 'गोपनीय स्वास्थ्य जाँच शुरू करें' },
+  'cta.find': { en: 'Find Support Near You', hi: 'अपने पास सहायता खोजें' },
+  'card.nutrition': { en: 'Anaemia & Nutrition', hi: 'एनीमिया और पोषण' },
+  'card.mental': { en: 'Mental Wellness', hi: 'मानसिक कल्याण' },
+  'card.safety': { en: 'Safety & Protection', hi: 'सुरक्षा और संरक्षण' },
+  'card.services': { en: 'Nearby Health Services', hi: 'नज़दीकी स्वास्थ्य सेवाएँ' },
+  strip: { en: 'Early screening. Timely support. Better outcomes.', hi: 'जल्दी जाँच। समय पर सहायता। बेहतर परिणाम।' },
+  why: { en: 'Why SAKHI Matters', hi: 'SAKHI क्यों ज़रूरी है' },
+  'em.title': { en: 'Emergency Help Centre', hi: 'आपातकालीन सहायता केंद्र' },
+  'em.call': { en: 'Call Now', hi: 'अभी कॉल करें' },
+  'em.copy': { en: 'Copy Number', hi: 'नंबर कॉपी करें' },
+  'em.copied': { en: 'Copied', hi: 'कॉपी हो गया' },
+  disclaimer: {
+    en: 'SAKHI is a frontend demonstration prototype created for the NIRMAAN project. It is not an official government portal or a substitute for medical, psychological, or legal advice. Helpline availability and service information must be verified before real-world use.',
+    hi: 'SAKHI NIRMAAN परियोजना के लिए बनाया गया एक प्रदर्शन प्रोटोटाइप है। यह कोई आधिकारिक सरकारी पोर्टल नहीं है और न ही चिकित्सीय, मनोवैज्ञानिक या कानूनी सलाह का विकल्प है। वास्तविक उपयोग से पहले हेल्पलाइन और सेवा जानकारी की पुष्टि अवश्य करें।',
+  },
+};
